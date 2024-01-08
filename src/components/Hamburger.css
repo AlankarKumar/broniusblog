@@ -1,0 +1,14 @@
+.hamburger{
+    position: fixed;
+    left: 1rem;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.hamburger .line{
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin-bottom: 10px;
+    background-color: #BEC4B9;
+}
