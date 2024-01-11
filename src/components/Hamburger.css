@@ -1,8 +1,7 @@
 .hamburger{
-    position: fixed;
-    left: 1rem;
-    padding-right: 20px;
+    position: relative;
     cursor: pointer;
+    left: -3rem;
 }
 
 .hamburger .line{

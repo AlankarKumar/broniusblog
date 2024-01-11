@@ -1,11 +1,12 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
-const allPosts: any = Astro.glob("../posts/*.md");
+const allPosts: any = await Astro.glob("../posts/*.md");
 
 const uniqueTags = [
     ...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat()),
 ];
+
 const pageTitle = "Category Page";
 ---
 

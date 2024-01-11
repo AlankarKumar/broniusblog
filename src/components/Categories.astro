@@ -1,0 +1,21 @@
+---
+import TagTile from "./TagTile.astro";
+
+const allPosts: any = await Astro.glob("../pages/posts/*.md");
+
+const uniqueTags = [
+    ...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat()),
+];
+
+const pageTitle = "Category Page";
+---
+
+{
+    uniqueTags.map((tag) => (
+        <li>
+            <a href={`tags/${tag}`}>
+                <TagTile tag={tag} />
+            </a>
+        </li>
+    ))
+}

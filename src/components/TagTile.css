@@ -1,0 +1,18 @@
+.tile{
+    width: 100%;
+    background-color: skyblue;
+    box-sizing: border-box;
+    border: 10px solid black;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+}
+
+.tag{
+    font-family: "League Spartan", sans-serif;
+    font-size: 36px;
+    letter-spacing: -0.120rem;
+}

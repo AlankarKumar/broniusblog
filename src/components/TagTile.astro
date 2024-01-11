@@ -1,0 +1,10 @@
+---
+import "./TagTile.css";
+const { tag } = Astro.props;
+---
+
+<div class="tile">
+    <div class="tag">
+        {`#${tag}`}
+    </div>
+</div>
