@@ -8,11 +8,12 @@ const pageTitle = "List of all blogs";
 <BaseLayout pageTitle={pageTitle}>
   {
     allPosts.map((post) => (
-      <li>
+      <li class="list-item">
         <a href={post.url}>
           <BlogPreview
             title={post.frontmatter.title}
             description={post.frontmatter.description}
+            date={post.frontmatter.pubDate}
           />
         </a>
       </li>
