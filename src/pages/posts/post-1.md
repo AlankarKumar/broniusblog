@@ -7,5 +7,5 @@ author: 'Astro Learner'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'The full Astro logo.'
-tags: ["react", "accessibility","himalayan chronicles","life in general", "developer's journal"]
+tags: [ "accessibility","himalayan chronicles","life in general", "developer's journal"]
 ---

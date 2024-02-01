@@ -25,3 +25,7 @@ li {
 .list-item{
   margin-bottom: 36px; 
 }
+
+.slot {
+  margin : 0 auto;
+}

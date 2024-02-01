@@ -1,5 +1,6 @@
 ---
 import TagTile from "./TagTile.astro";
+import "./Categories.css";
 
 const allPosts: any = await Astro.glob("../pages/posts/*.md");
 
@@ -10,12 +11,14 @@ const uniqueTags = [
 const pageTitle = "Category Page";
 ---
 
-{
-    uniqueTags.map((tag) => (
-        <li>
-            <a href={`tags/${tag}`}>
-                <TagTile tag={tag} />
-            </a>
-        </li>
-    ))
-}
+<div class="taglayout">
+    {
+        uniqueTags.map((tag) => (
+            <li>
+                <a href={`tags/${tag}`}>
+                    <TagTile tag={tag} />
+                </a>
+            </li>
+        ))
+    }
+</div>

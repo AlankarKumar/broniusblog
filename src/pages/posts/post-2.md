@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'How to make radio groups accessible in react?'
-pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog. alankar isaad asldkfjlaskjdf asldjflasjdf asldjflasjdlfjaslfjlasdjf asdlfjasldjflasdjdf asdfklj'
-author: 'Astro Learner'
+title: 'Declaring Components Inside another component: Why not?'
+pubDate: 2024-01-22
+description: 'Is it ok to declare components inside another component? Is your component state getting updated unpredictably? Do not nest component declarations..'
+author: 'Alankar'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'The full Astro logo.'
-tags: ["react", "accessibility","himalayan chronicles","life in general", "developer's journal"]
+tags: ["react"]
 ---
